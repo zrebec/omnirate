@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: [
       './dist/**/*.html',
       './src/**/*.js'
@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        xxs: '18rem'
+        xxs: '17rem'
       }
     },
   },
