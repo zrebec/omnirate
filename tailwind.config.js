@@ -7,13 +7,6 @@ module.exports = {
     ]
   },
   darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {
-      maxWidth: {
-        xxs: '17rem'
-      }
-    },
-  },
   variants: {
     extend: {},
   },
