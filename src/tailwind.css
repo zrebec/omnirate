@@ -3,8 +3,31 @@
 @tailwind utilities;
 
 @layer components {
+  .main {
+    @apply min-h-screen bg-gray-900 mx-auto;
+  }
+
+  .site-header {
+    @apply text-white text-center text-2xl font-bold p-10 bg-white bg-opacity-20 rounded-md;
+  }
+
+  .card-container {
+    @apply grid justify-center pt-3 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+
+  .card {
+    @apply rounded-lg shadow-md overflow-hidden bg-gray-100 text-black;
+  }
+
+  .btn-vote {
+    @apply inline-flex items-center border-2 border-black w-20 rounded-md mr-2 px-1;
+  }
+
   .card-image {
-    @apply object-cover max-h-96 w-max;
-    filter: grayscale(100%);
+    @apply object-cover max-h-96 w-max filter grayscale;
+  }
+
+  .card-title {
+    @apply mt-3 text-lg font-medium uppercase text-center;
   }
 }

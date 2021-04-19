@@ -15,111 +15,102 @@
   </head>
 
   <body lang="en">
-    <main class="min-h-screen bg-gradient-to-b from-gray-800 to-gray-200">
-      <div class="grid justify-center p-3 gap-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
-        <!-- First card -->
-        <div class="rounded-lg shadow-md overflow-hidden bg-gray-100 text-black">
-          <figure>
-            <img class="card-image" src="https://zrebec.sk/assets/alpaka.jpg" alt="" />
-          </figure>
-          <header class="flex m-2 font-semibold">
-            <a href="#" class="inline-flex items-center border-2 border-black w-20 rounded-md mr-2 px-1 hover:cursor-pointer">
-              <div class="h4 w-4 mr-1 thumbup">&nbsp;</div>
-              <span>186</span>
-            </a>
-            <a href="#" class="inline-flex items-center border-2 border-black w-20 rounded-md px-1 hover:cursor-pointer">
-              <div class="h-4 w-4 mr-1 thumbdown">&nbsp;</div>
-              <span>12</span>
-            </a>
-            <div class="flex-grow font-bold w-100 text-right">84%</div>
-          </header>
-          <article class="m-2">
-            <h2>
-              <a href="#" class="block mt-3 text-lg font-medium hover:underline uppercase text-center">Gold Retro</a>
-            </h2>
-            <p class="text-gray-600 my-2">
+    <main class="container main">
+      <section class="p-3">
+        <h2 class="site-header">A-Z Planet</h2>
+        <div class="card-container">
+          <!-- First card -->
+          <article class="card">
+            <figure>
+              <img class="card-image" src="https://zrebec.sk/assets/alpaka.jpg" alt="" />
+            </figure>
+            <header class="flex m-2 font-semibold">
+              <a href="#" class="btn-vote">
+                <div class="h4 w-4 mr-1 thumbup">&nbsp;</div>
+                186
+              </a>
+              <a href="#" class="btn-vote">
+                <div class="h-4 w-4 mr-1 thumbdown">&nbsp;</div>
+                12
+              </a>
+              <div class="flex-grow font-bold w-100 text-right">84%</div>
+            </header>
+            <h2 class="card-title">Gold Retro</h2>
+            <p class="text-gray-600 m-2">
               The Compact Cassette or Musicassette (MC), also commonly called the tape cassette, cassette tape, audio cassette, or simply tape or cassette, is
               an analog magnetic tape recording format for audio recording and playback. It was developed by the Dutch company Royal Philips in Hasselt,
               Belgium, by Lou Ottens and his team. It was introduced in September 1963. Compact Cassettes come in two forms, either already containing content
               as a prerecorded cassette (Musicassette), or as a fully recordable "blank" cassette. Both forms are reversible by the user.
             </p>
+            <footer class="flex space-x-1 m-2">
+              <div class="text-center text-xs text-white font-semibold bg-green-500 px-3 py-1 rounded-md">Retro</div>
+              <div class="text-center text-xs text-black font-semibold bg-yellow-500 px-3 py-1 rounded-md">Continuous play</div>
+              <div class="text-center text-xs text-black font-semibold bg-red-500 px-3 py-1 rounded-md">Worse quality</div>
+            </footer>
           </article>
-          <footer class="flex space-x-1 m-2">
-            <div class="text-center text-xs text-white font-semibold bg-green-500 px-3 py-1 rounded-md">Retro</div>
-            <div class="text-center text-xs text-black font-semibold bg-yellow-500 px-3 py-1 rounded-md">Continuous play</div>
-            <div class="text-center text-xs text-black font-semibold bg-red-500 px-3 py-1 rounded-md">Worse quality</div>
-          </footer>
-        </div>
 
-        <!-- Second card -->
-        <div class="rounded-lg shadow-md overflow-hidden bg-gray-300 text-black">
-          <figure>
-            <img class="object-cover card-image" src="https://zrebec.sk/assets/bear.jpg" alt="" />
-          </figure>
-          <header class="flex m-2 font-semibold">
-            <a href="#" class="inline-flex items-center border-2 border-black w-20 rounded-md mr-2 px-1 hover:cursor-pointer">
-              <div class="h-4 w-4 mr-1 thumbup">&nbsp;</div>
-              <span>16</span>
-            </a>
-            <a href="#" class="inline-flex items-center border-2 border-black w-20 rounded-md px-1 hover:cursor-pointer">
-              <div class="h-4 w-4 mr-1 thumbdown">&nbsp;</div>
-              <span>6</span>
-            </a>
-            <div class="flex-grow font-bold w-100 text-right">78%</div>
-          </header>
-          <article class="m-2">
-            <h2>
-              <a href="#" class="block mt-3 text-lg font-medium hover:underline uppercase text-center">Best music quality</a>
-            </h2>
-            <p class="text-gray-900 my-2">
+          <!-- Second card -->
+          <article class="card">
+            <figure>
+              <img class="card-image" src="https://zrebec.sk/assets/bear.jpg" alt="" />
+            </figure>
+            <header class="flex m-2 font-semibold">
+              <a href="#" class="btn-vote">
+                <div class="h-4 w-4 mr-1 thumbup">&nbsp;</div>
+                16
+              </a>
+              <a href="#" class="btn-vote">
+                <div class="h-4 w-4 mr-1 thumbdown">&nbsp;</div>
+                6
+              </a>
+              <div class="flex-grow font-bold w-100 text-right">78%</div>
+            </header>
+            <h2 class="card-title">Best music quality</h2>
+            <p class="text-gray-900 m-2">
               Standard CDs have a diameter of 120 millimetres (4.7 in) and are designed to hold up to 74 minutes of uncompressed stereo digital audio or about
               650 MiB of data. Capacity is routinely extended to 80 minutes and 700 MiB by arranging more data closely on the same sized disc. The Mini CD has
               various diameters ranging from 60 to 80 millimetres (2.4 to 3.1 in); they are sometimes used for CD singles, storing up to 24 minutes of audio, or
               delivering device drivers.
             </p>
+            <footer class="flex items-center h-10 space-x-1 m-2">
+              <div class="text-center text-xs text-white font-semibold bg-green-500 px-3 py-1 rounded-md">Best quality</div>
+              <div class="text-center text-xs text-black font-semibold bg-yellow-500 px-3 py-1 rounded-md">Big dimesnions</div>
+              <div class="text-center text-xs text-black font-semibold bg-red-500 px-3 py-1 rounded-md">Often scratched</div>
+            </footer>
           </article>
-          <footer class="flex items-center h-10 space-x-1 m-2">
-            <div class="text-center text-xs text-white font-semibold bg-green-500 px-3 py-1 rounded-md">Best quality</div>
-            <div class="text-center text-xs text-black font-semibold bg-yellow-500 px-3 py-1 rounded-md">Big dimesnions</div>
-            <div class="text-center text-xs text-black font-semibold bg-red-500 px-3 py-1 rounded-md">Often scratched</div>
-          </footer>
-        </div>
 
-        <!-- Third card -->
-        <div class="rounded-lg shadow-md overflow-hidden bg-gray-700 text-white">
-          <figure>
-            <img class="object-cover card-image" src="https://zrebec.sk/assets/cougar.jpg" alt="" />
-          </figure>
-          <header class="flex m-2 font-semibold">
-            <a href="#" class="inline-flex items-center border-2 border-black w-20 rounded-md mr-2 px-1">
-              <div class="h-4 w-4 mr-1 thumbup">&nbsp;</div>
-              <span>8</span>
-            </a>
-            <a href="#" class="inline-flex items-center border-2 border-black w-20 rounded-md px-1">
-              <div class="h-4 w-4 mr-1 thumbdown">&nbsp;</div>
-              <span>100</span>
-            </a>
-            <div class="flex-grow font-bold w-100 text-right">8%</div>
-          </header>
-          <article class="m-2">
-            <h2>
-              <a href="#" class="block mt-3 text-lg font-medium hover:underline uppercase text-center">Hopefully forever?!</a>
-            </h2>
-            <p class="text-gray-300 my-2">
+          <!-- Third card -->
+          <article class="card">
+            <figure>
+              <img class="card-image" src="https://zrebec.sk/assets/cougar.jpg" alt="" />
+            </figure>
+            <header class="flex m-2 font-semibold">
+              <a href="#" class="btn-vote">
+                <div class="h-4 w-4 mr-1 thumbup">&nbsp;</div>
+                8
+              </a>
+              <a href="#" class="btn-vote">
+                <div class="h-4 w-4 mr-1 thumbdown">&nbsp;</div>
+                100
+              </a>
+              <div class="flex-grow font-bold w-100 text-right">8%</div>
+            </header>
+            <h2 class="card-title">Hopefully forever?!</h2>
+            <p class="text-gray-600 m-2">
               USB flash drives are often used for storage, data back-up and transferring of computer files. Compared with floppy disks or CDs, they are smaller,
               faster, have significantly more capacity, and are more durable due to a lack of moving parts. Additionally, they are immune to electromagnetic
               interference (unlike floppy disks), and are unharmed by surface scratches (unlike CDs). Until about 2005, most desktop and laptop computers were
               supplied with floppy disk drives in addition to USB ports, but floppy disk drives became obsolete after widespread adoption of USB ports and the
               larger USB drive capacity compared to the "1.44 megabyte" (1440 kibibyte) 3.5-inch floppy disk.
             </p>
+            <footer class="flex items-center h-10 space-x-1 m-2">
+              <div class="text-center text-xs text-white font-semibold bg-green-500 px-3 py-1 rounded-md">Super fast</div>
+              <div class="text-center text-xs text-black font-semibold bg-red-300 px-3 py-1 rounded-md">Different quality</div>
+              <div class="text-center text-xs text-black font-semibold bg-red-500 px-3 py-1 rounded-md">More expensive then 10CDs</div>
+            </footer>
           </article>
-          <footer class="flex items-center h-10 space-x-1 m-2">
-            <div class="text-center text-xs text-white font-semibold bg-green-500 px-3 py-1 rounded-md">Super fast</div>
-            <div class="text-center text-xs text-black font-semibold bg-red-300 px-3 py-1 rounded-md">Different quality</div>
-            <div class="text-center text-xs text-black font-semibold bg-red-500 px-3 py-1 rounded-md">More expensive then 10CDs</div>
-          </footer>
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>
