@@ -1,11 +1,12 @@
 @tailwind base;
-
-body {
-  @apply bg-gray-900;
-}
-
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
+}
 
 @layer components {
   .main {
@@ -21,7 +22,7 @@ body {
   }
 
   .site-header {
-    @apply text-white text-center text-2xl font-bold p-10 bg-white bg-opacity-20 rounded-md;
+    @apply text-white text-center text-2xl font-bold p-10 bg-white bg-opacity-20 rounded-md mb-4;
   }
 
   .card-image {
@@ -45,7 +46,7 @@ body {
   }
 
   .card-labels-item {
-    @apply text-center text-xs font-semibold px-3 py-1 rounded-md border-2 border-gray-800;
+    @apply text-center text-xs font-semibold px-3 py-1 rounded-md border border-gray-800;
   }
 
   .btn-vote {
