@@ -1,1 +1,5 @@
-# Planet A-Z
+# Installing project
+
+- Install NodeJS
+
+## How rating system works
