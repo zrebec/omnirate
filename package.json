@@ -7,7 +7,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "build-css": "tailwind build src/tailwind.css -o dist/tailwind.css"
+    "build-css": "tailwind build -i src/tailwind.css -o dist/tailwind.css"
   },
   "dependencies": {
     "tailwindcss": "^2.1.1"
