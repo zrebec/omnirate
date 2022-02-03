@@ -1,10 +1,9 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ["./dist/**/*.html", "./src/**/*.js"],
-  },
+  content: ["./dist/**/*.html"],
+  safelist: [], // this classes will be always generated withount matter if is used or not
   theme: {
     extend: {
+      colors: {},
       gridTemplateColumns: {
         "auto-fit": "repeat(auto-fit, minmax(calc( 25% - 1rem ), 1fr))",
         "auto-fill": "repeat(auto-fill, minmax(0, 1fr))",
@@ -16,10 +15,6 @@ module.exports = {
     },
     variants: {},
     plugins: [],
-  },
-  darkMode: false, // or 'media' or 'class'
-  variants: {
-    extend: {},
   },
   plugins: [],
 };

@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-900;
+    @apply bg-slate-900;
   }
 }
 
@@ -18,7 +18,7 @@
   }
 
   .card {
-    @apply rounded-lg overflow-hidden bg-gray-100 text-black shadow md:shadow-xl lg:shadow-2xl;
+    @apply rounded-lg overflow-hidden bg-slate-100 text-black shadow md:shadow-xl lg:shadow-2xl;
   }
 
   .site-header {
@@ -46,7 +46,7 @@
   }
 
   .card-labels-item {
-    @apply text-center text-xs font-semibold px-3 py-1 rounded-md border border-gray-800;
+    @apply text-center text-xs font-semibold px-3 py-1 rounded-md border border-slate-800;
   }
 
   .btn-vote {
