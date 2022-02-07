@@ -1,0 +1,106 @@
+<template>
+	<section class="p-3">
+		<h1 class="site-header">A-Z Planet</h1>
+		<div class="card-container">
+			<!-- First card -->
+			<article class="card">
+				<figure>
+					<img class="card-image" src="https://zrebec.sk/assets/alpaka.jpg" alt="" />
+				</figure>
+				<header class="card-header h-8">
+					<a href="#" class="btn-vote">
+						<div class="h4 thumbup mr-1 w-4">&nbsp;</div>
+						186
+					</a>
+					<a href="#" class="btn-vote">
+						<div class="thumbdown mr-1 h-4 w-4">&nbsp;</div>
+						12
+					</a>
+					<div class="w-100 grow text-right font-bold">84%</div>
+				</header>
+
+				<h2 class="card-title">Alpaca</h2>
+				<p class="card-description">
+					The alpaca is a camelid mammal native to South America. Closely related to its larger cousin, the llama, the two species are able to interbreed. Yarn
+					spun from alpaca wool is popular for warm, soft sweaters, socks, mittens, and hats, making the fur of these domesticated animals a valuable commodity.
+				</p>
+				<footer class="card-labels">
+					<div class="card-labels-item bg-emerald-500">White soft fur</div>
+					<div class="card-labels-item bg-amber-500 text-black">Cute but not domestic</div>
+					<div class="card-labels-item bg-rose-500 text-black">Sometimes strange</div>
+				</footer>
+			</article>
+
+			<!-- Second card -->
+			<article class="card">
+				<figure>
+					<img class="card-image" src="https://zrebec.sk/assets/bear.jpg" alt="" />
+				</figure>
+				<header class="card-header">
+					<a href="#" class="btn-vote">
+						<div class="thumbup mr-1 h-4 w-4">&nbsp;</div>
+						16
+					</a>
+					<a href="#" class="btn-vote">
+						<div class="thumbdown mr-1 h-4 w-4">&nbsp;</div>
+						6
+					</a>
+					<div class="w-100 grow text-right font-bold">78%</div>
+				</header>
+				<h2 class="card-title">Bear</h2>
+				<p class="card-description">
+					Certain Asiatic bears build nests in trees similar to that of a bird. There are eight different species of bears across the world with a conservation
+					status ranging from vulerable to least concern. Depending on the bear species, habitats include North America, South America, Europe, Asia, and the
+					northern-most polar regions. While not ordinarily a threat to humans, bears are animals that can be very dangerous if startled, provoked, or
+					approached when young bears (cubs) are present.
+				</p>
+				<footer class="card-labels">
+					<div class="card-labels-item bg-emerald-500 text-white">You need this animal in forests</div>
+					<div class="card-labels-item bg-amber-500 text-black">Beware of close contact</div>
+					<div class="card-labels-item bg-rose-500 text-black">Dont be rush</div>
+				</footer>
+			</article>
+
+			<!-- Third card -->
+			<article class="card">
+				<figure>
+					<img class="card-image" src="https://zrebec.sk/assets/cougar.jpg" alt="" />
+				</figure>
+				<header class="card-header">
+					<a href="#" class="btn-vote">
+						<div class="thumbup mr-1 h-4 w-4">&nbsp;</div>
+						8
+					</a>
+					<a href="#" class="btn-vote">
+						<div class="thumbdown mr-1 h-4 w-4">&nbsp;</div>
+						100
+					</a>
+					<div class="w-100 grow text-right font-bold">8%</div>
+				</header>
+				<h2 class="card-title">Cougar</h2>
+				<p class="card-description">
+					<em>“A Big Cat Without a Roar”</em>. As North America’s second largest cat, the cougar is an intimidating animal to run into. The cougar is unable to
+					roar because it doesn’t have the needed larynx to do so. Instead, the big cat purrs, growls, hisses and screams as well as whistles and chirps.
+					Cougars are also called pumas, panthers and mountain lions. The cats have round heads, pointed ears and slender bodies. <br /><br />The cougar is
+					known by the scientific name “puma concolor” or “felis concolor.” Carl Linnaeus proposed the name “felis concolor” to describe a big cat that has a
+					long tail. The animal has more names in the dictionary than any other animal. Along with mountain lion and puma, the cat is also called catamount and
+					rose tiger among others. Cougars belong to the subfamily Felinae. After Linnaeus introduced a scientific description of cougars, researchers listed 32
+					zoological subspecies until the late ‘80s. According to genetic studies, many of the subspecies were too close to be considerose separate. Now,
+					scientists have determined that there are six phylogeographic groups.
+				</p>
+				<footer class="card-labels">
+					<div class="card-labels-item bg-emerald-500 text-white">Super fast</div>
+					<div class="card-labels-item bg-rose-300 text-black">Silent</div>
+					<div class="card-labels-item bg-rose-500 text-black">You should never running away</div>
+				</footer>
+			</article>
+		</div>
+	</section>
+</template>
+
+<script>
+export default {
+	name: 'App',
+	components: {},
+};
+</script>

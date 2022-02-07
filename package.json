@@ -7,10 +7,16 @@
 	"author": "",
 	"license": "ISC",
 	"scripts": {
-		"build-css": "tailwind build -i src/tailwind.css -o dist/tailwind.css",
-		"build": "npm run build-css && npx prettier --write ."
+		"build-css": "tailwind build -i src/tailwind.css -o public/tailwind.css",
+		"watch-css": "tailwind build -i src/tailwind.css -o public/tailwind.css -w",
+		"deploy-css": "npm run build-css && npx prettier --write .",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
 	},
 	"devDependencies": {
+		"@vue/cli": "^5.0.0-rc.2",
+		"@vue/cli-service": "^5.0.0-rc.2",
 		"autoprefixer": "^10.4.2",
 		"postcss": "^8.4.6",
 		"prettier": "^2.5.1",
