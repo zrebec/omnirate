@@ -1,5 +1,5 @@
 module.exports = {
-	content: ['./src/**/*.{html,vue,js}'],
+	content: ['./src/**/*.{vue,js}'],
 	safelist: [], // this classes will be always generated withount matter if is used or not
 	theme: {
 		extend: {
