@@ -30,7 +30,7 @@ npm run build
 
     [x] Write only scr project and move the most content to src. It shoudn't format dist directory
     [x] Make percentage rating by likes and dislikes (automated counting in vue)
-    [ ] Refactor project name
+    [x] Refactor project name
     [ ] Look for npm audit
 
 ## Useful links
