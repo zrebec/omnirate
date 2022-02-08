@@ -29,7 +29,7 @@ npm run build
 ## Checklist
 
     [x] Write only scr project and move the most content to src. It shoudn't format dist directory
-    [ ] Make percentage rating by likes and dislikes (automated counting in vue)
+    [x] Make percentage rating by likes and dislikes (automated counting in vue)
     [ ] Refactor project name
     [ ] Look for npm audit
 

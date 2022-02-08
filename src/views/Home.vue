@@ -15,7 +15,9 @@
 						<div class="thumbdown mr-1 h-4 w-4">&nbsp;</div>
 						{{ item.countDislike }}
 					</a>
-					<div class="w-100 grow text-right font-bold">84%</div>
+					<div class="w-100 grow text-right font-bold">
+						{{ calculateRating(item.countLike, item.countDislike) }}
+					</div>
 				</header>
 
 				<h2 class="card-title">{{ item.title }}</h2>
@@ -45,10 +47,16 @@ export default {
 	},
 	setup() {
 		const items = ref(data);
-
 		return {
 			items,
 		};
+	},
+	methods: {
+		calculateRating: function (likes, dislikes) {
+			let rating = Math.min(Math.round((likes / (likes + dislikes)) * 100), 100);
+			if (isNaN(rating)) return 'Žiadne hodnotenia';
+			else return rating + '%';
+		},
 	},
 };
 </script>

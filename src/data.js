@@ -1,7 +1,7 @@
 export const data = [
 	{
 		countLike: 186,
-		countDislike: 12,
+		countDislike: 3,
 		title: 'Aplaca',
 		picture: { source: 'https://zrebec.sk/assets/alpaka.jpg', description: 'Picture of alpaca' },
 		properties: [
@@ -28,8 +28,8 @@ export const data = [
 		],
 	},
 	{
-		countLike: 8,
-		countDislike: 100,
+		countLike: 0,
+		countDislike: 0,
 		title: 'Cougar',
 		picture: { source: 'https://zrebec.sk/assets/cougar.jpg', description: 'Picture of cougar' },
 		properties: [
