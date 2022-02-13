@@ -45,8 +45,12 @@ export default {
 	props: {
 		title: { type: String, default: 'Planéta zvierat' },
 	},
-	setup() {
+	setup(props, context) {
 		const items = ref(data);
+		const addNewCard = (title) => {
+			let newID = Math.Max(...items.value.map(id)) + 1;
+			console.write(newID);
+		};
 		return {
 			items,
 		};

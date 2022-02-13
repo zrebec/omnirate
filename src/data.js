@@ -1,5 +1,6 @@
 export const data = [
 	{
+		id: 1,
 		countLike: 186,
 		countDislike: 3,
 		title: 'Aplaca',
@@ -14,6 +15,7 @@ export const data = [
 		],
 	},
 	{
+		id: 2,
 		countLike: 16,
 		countDislike: 6,
 		title: 'Bear',
@@ -28,6 +30,7 @@ export const data = [
 		],
 	},
 	{
+		id: 3,
 		countLike: 0,
 		countDislike: 0,
 		title: 'Cougar',
