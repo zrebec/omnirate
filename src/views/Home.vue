@@ -47,10 +47,16 @@ export default {
 	},
 	setup(props, context) {
 		const items = ref(data);
-		const addNewCard = (title) => {
-			let newID = Math.Max(...items.value.map(id)) + 1;
-			console.write(newID);
-		};
+
+		// New ID for new card
+		let newID =
+			Math.max.apply(
+				Math,
+				items.value.map(function (o) {
+					return o.id;
+				}),
+			) + 1;
+		console.log('New ID:' + newID);
 		return {
 			items,
 		};
